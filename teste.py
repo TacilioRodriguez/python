@@ -1,6 +1,8 @@
-def mensagem(mensagem):
-    print('-' * 30)
-    print(mensagem)
-    print('-' * 30)
+def contagem_regressiva(num):
+    while True:
+        print(num)
+        num -= 1
+        if num < 0:
+            break
 
-mensagem('Tacilio')
+contagem_regressiva(10)
